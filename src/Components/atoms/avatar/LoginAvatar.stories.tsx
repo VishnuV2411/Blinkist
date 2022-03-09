@@ -7,7 +7,7 @@ export default {
 } as ComponentMeta<typeof LoginAvatar>;
 
 const Template: ComponentStory<typeof LoginAvatar> = () => (
-    <LoginAvatar />
+    <LoginAvatar name={""} />
 );
 
 export const Primary = Template.bind({})

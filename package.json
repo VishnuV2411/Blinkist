@@ -1,13 +1,16 @@
 {
   "name": "my-app",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.4.4",
+    "@mui/lab": "^5.0.0-alpha.71",
     "@mui/material": "^5.4.4",
     "@mui/styled-engine-sc": "^5.4.2",
+    "@mui/styles": "^5.4.4",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
@@ -17,6 +20,7 @@
     "@types/react-dom": "^17.0.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "styled-components": "^5.3.3",
     "typescript": "^4.5.5",
@@ -29,7 +33,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "build-static-webapp":"expo build:web"
+    "build-static-webapp": "expo build:web"
   },
   "eslintConfig": {
     "extends": [
@@ -72,4 +76,5 @@
     "@storybook/testing-library": "^0.0.9",
     "webpack": "^5.69.1"
   }
+  
 }

@@ -1,6 +1,6 @@
 import { Card, CardMedia } from '@mui/material';
 import React from 'react';
-import appLogo from "/home/vishvrt/TypeScript/my-app/public/images/blinkistLogo.png";
+import appLogo from "../assets/blinkistLogo.png";
 
 const BlinkImage = () => {
     return (
