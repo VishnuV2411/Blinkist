@@ -1,22 +1,24 @@
 import { Button } from "@mui/material";
 import React from "react";
-import customStyle from "../../../../../Theme"
+import customStyle from "../../../../../Theme";
+import { Link } from "react-router-dom";
 
 interface Handle {
-    //handleFinish: {item: string} => void;
+    handleFinish: (item: string) => void;
     bookName: string;
     btn: boolean;
 }
 
 const FinishReading = (props: Handle) => {
-    // const set = () => {
-    //     props.handleFinish(props.bookName);
-    // };
+    const set = () => {
+         props.handleFinish(props.bookName);
+    };
 
     const classes = customStyle();
     return (
-        <Button 
-            //onClick={set}
+        <Link to="/" style = {{textDecoration: "none"}}>
+            <Button 
+            onClick={set}
             className={classes.finishReading}
             sx={{
                 display: props.btn ? "none" : "",
@@ -29,6 +31,8 @@ const FinishReading = (props: Handle) => {
         >
             Finished Reading
         </Button>
+        </Link>
+        
     );
 };
 
