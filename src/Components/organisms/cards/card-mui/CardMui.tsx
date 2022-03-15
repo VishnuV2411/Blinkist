@@ -4,7 +4,7 @@ import useStyle from "../../../../Theme";
 import CurrentBar from "../../../atoms/current-bar/CurrentBar";
 import FinishedBar from "../../../atoms/finished-bar/FinishedBar";
 import FinishedButton from "../../../atoms/finished-button/FinishedButton";
-import ReadAgainButton from "../../../atoms/readagainbutton/ReadAgain";
+import ReadAgainButton from "../../../atoms/readagainbutton/ReadAgainButton";
 import CardHead from "../../../molecules/card/CardHead";
 
 interface Mui {

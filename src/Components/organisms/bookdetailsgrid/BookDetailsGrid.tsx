@@ -44,7 +44,7 @@ export const BookDetailsGrid = (props:Handle) => {
                     <ReadNow />
                   </Grid>
                   <Grid item>
-                    <FinishReading btn={props.btn} bookName="Beyond Entrepreneurship 2.0" /*handleFinish={props.handleFinish}*/ />
+                    <FinishReading btn={props.btn} bookName="Beyond Entrepreneurship 2.0" handleFinish={props.handleFinish} />
                   </Grid>
                   <Grid item>
                     <SendToKindle />

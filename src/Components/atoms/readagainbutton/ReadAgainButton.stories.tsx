@@ -1,4 +1,4 @@
-import ReadAgainButton from "./ReadAgain";
+import ReadAgainButton from "./ReadAgainButton";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 export default {
