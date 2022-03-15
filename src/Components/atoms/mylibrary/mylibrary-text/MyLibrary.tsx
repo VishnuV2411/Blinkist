@@ -8,6 +8,7 @@ const MyLibrary = () => {
   return (
     <Link to="/" style={{ textDecoration: "none" }}>
       <Typography
+        data-testid="library"
         variant="body1"
         className={classes.myLibrary}
       >

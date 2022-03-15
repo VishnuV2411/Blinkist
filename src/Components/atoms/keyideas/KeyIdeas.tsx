@@ -8,6 +8,7 @@ export const KeyIdeas = () => {
     <Typography
       variant="body2"
       className={classes.keyIdeas}
+      data-testid="KeyIdeas"
     >
       Get the key ideas from
     </Typography>

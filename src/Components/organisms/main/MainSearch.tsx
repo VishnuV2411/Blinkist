@@ -11,6 +11,7 @@ export const MainSearch = (props: Handle) => {
   const classes = customStyle();
   return (
     <TextField
+      data-testid="TextField"
       variant="standard"
       placeholder="Search by title or author "
       InputProps={{

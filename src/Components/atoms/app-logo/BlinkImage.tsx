@@ -8,9 +8,9 @@ const BlinkImage = () => {
             <CardMedia 
                 component="img"
                 height="26px"
-                width="99px"
+                width="px"
                 image={appLogo}
-                alt="app logo"
+                alt="app-logo"
             />
         </Card>
     );

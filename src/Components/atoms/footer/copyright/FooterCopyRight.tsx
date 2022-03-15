@@ -9,6 +9,7 @@ const FooterCopyRight = () => {
       <Typography
         variant="body1"
         className={classes.footerCopyRight}
+        data-testid="copyright"
       >
         © Blinkist 2021 Sitemap | Imprint | Terms of Service | Privacy Policies
       </Typography>

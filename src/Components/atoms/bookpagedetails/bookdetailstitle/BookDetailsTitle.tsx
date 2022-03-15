@@ -8,6 +8,7 @@ const BookDetailsTitle = () => {
         <Typography
           className={classes.bookTitle}
           variant="h1"
+          data-testid="BookDetails"
         >
             Beyond Entrepreneurship 2.0
         </Typography>
