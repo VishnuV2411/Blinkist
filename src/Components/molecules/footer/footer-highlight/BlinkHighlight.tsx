@@ -10,7 +10,10 @@ const BlinkHighlight = () => {
     <Grid
       container
       className={classes.blinkHighlightGridOne}
+      data-testid="blinkHighlight"
     >
+
+
       <Grid item className={classes.blinkHighlightGridTwo}>
         <BlinkImage />
       </Grid>

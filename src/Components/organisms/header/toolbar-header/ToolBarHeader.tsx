@@ -15,6 +15,7 @@ const ToolBarHeader = (props: ToolbarHeaderProps) => {
         container
         columnGap="160px"
         justifyContent="center"
+        data-testid="ToolBarHeader"
       >
         <Grid item>
           <HeaderLeft icon={props.icon} handleChange={props.handleChange} />

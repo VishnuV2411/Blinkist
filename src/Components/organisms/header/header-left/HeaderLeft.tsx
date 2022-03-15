@@ -17,6 +17,7 @@ const HeaderLeft = (props: Handle) => {
     <Grid
       container
       className={classes.headerLeftGridMain}
+      data-testid="HeaderLeft"
     >
       <Grid item className={classes.headerLeftGrid}>
         <BlinkImage />

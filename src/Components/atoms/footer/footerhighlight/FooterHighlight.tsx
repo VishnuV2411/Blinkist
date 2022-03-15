@@ -9,6 +9,7 @@ const FooterHighlight = () => {
       <Typography
         variant="subtitle1"
         className={classes.footerHighlight}
+        data-testid="highlight"
       >
         Big ideas in small packages Start learnign now
       </Typography>

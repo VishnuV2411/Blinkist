@@ -19,6 +19,7 @@ const MainReading = (props: Books) => {
       handleReadAgain={props.handleReadAgain}
       handleFinish={props.handleFinish}
       details={props.currentReading}
+      data-testid="MainFinished"
     />
   );
 };

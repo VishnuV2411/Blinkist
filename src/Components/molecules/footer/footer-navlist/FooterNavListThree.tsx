@@ -7,7 +7,7 @@ import NavItem from '../../../atoms/footer/navitems/navitem/NavItem';
 const list=["About","Careers","partners","Code of Conduct"];
 const FooterNavListThree = () => {
   return(
-    <Grid container direction="column">
+    <Grid container direction="column" data-testid="FooterNavList3">
     <Grid item>
     <NavHead name="Company"/>
     </Grid>

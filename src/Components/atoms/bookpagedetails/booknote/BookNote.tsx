@@ -8,6 +8,7 @@ const BookNote = () => {
         <Typography
            className={classes.bookNote}
            variant="subtitle2"
+           data-testid="BookNote"
         >
             Turning Your Business into an Enduring Great Company
         </Typography>

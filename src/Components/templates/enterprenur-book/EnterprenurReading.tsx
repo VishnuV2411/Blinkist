@@ -4,7 +4,7 @@ import book2 from "../../atoms/assets/book2.png";
 import book3 from "../../atoms/assets/book3.png";
 import book4 from "../../atoms/assets/book4.png";
 import book5 from "../../atoms/assets/book5.png";
-import bookimage from "../../atoms/assets/bookImage.png";
+import bookimage from "../../atoms/assets/bookImage.png"
 import { CardAdd } from "../../organisms/cards/card-add/CardAdd";
 
 const readingbooks = [
@@ -51,17 +51,14 @@ interface Handle {
 }
 
 export const EnterprenurReading = (props: Handle) => {
-
   const tempBooks = readingbooks.filter(
     (e) => e.name.toLowerCase().indexOf(props.value) > -1
   );
-
   return (
     <>
-      <div>
+      <div data-testid="Enterprenur">
         <CardAdd details={tempBooks} />
       </div>
     </>
   );
-  
 };

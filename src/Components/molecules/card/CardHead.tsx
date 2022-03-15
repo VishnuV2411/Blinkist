@@ -5,7 +5,6 @@ import AuthorName from "../../atoms/author/AuthorName";
 import BookTitle from "../../atoms/booktitle/BookTitle";
 import ReadTime from "../read-time/ReadTime";
 
-
 interface Data {
   image: string;
   bookName: string;
@@ -16,7 +15,7 @@ const CardHead = (props: Data) => {
   const classes = useStyle();
   return (
     <>
-      <Grid item>
+      <Grid item data-testid="CardHead">
         <CardMedia
           component="img"
           height="292px"

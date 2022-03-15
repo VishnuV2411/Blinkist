@@ -1,12 +1,12 @@
 import React from "react";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-
+import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
 const NavDown = () => {
-    return (
-    <KeyboardArrowDownIcon
-        sx={{ backgroundBlendMode: "#042330" }}
-    ></KeyboardArrowDownIcon>
-    );
+  return (
+    <KeyboardArrowDownOutlinedIcon
+      data-testid="NavDown"
+      sx={{ backgroundBlendMode: "#042330" }}
+    ></KeyboardArrowDownOutlinedIcon>
+  );
 };
 
 export default NavDown;

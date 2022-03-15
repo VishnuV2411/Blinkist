@@ -11,7 +11,7 @@ const list = [
 ];
 const FooterNavListOne = () => {
   return (
-    <Grid container direction="column">
+    <Grid container direction="column" data-testid="FooterNavList1">
       <Grid item>
         <NavHead name="Editorial" />
       </Grid>

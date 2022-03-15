@@ -14,6 +14,7 @@ const FooterMain = () => {
       container
       direction="column"
       className={classes.footerMainGridOne}
+      data-testid="FooterMain"
     >
       <Grid item>
         <Grid
