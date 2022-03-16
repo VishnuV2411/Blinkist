@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1647405806517" clover="3.2.0">
+  <project timestamp="1647405806518" name="All files">
+    <metrics statements="422" coveredstatements="190" conditionals="36" coveredconditionals="12" methods="154" coveredmethods="68" elements="612" coveredelements="270" complexity="0" loc="422" ncloc="422" packages="55" files="114" classes="114"/>
+    <package name="src">
+      <metrics statements="43" coveredstatements="13" conditionals="14" coveredconditionals="1" methods="10" coveredmethods="1"/>
+      <file name="App.tsx" path="/home/vishvrt/TypeScript/my-app/src/App.tsx">
+        <metrics statements="31" coveredstatements="11" conditionals="10" coveredconditionals="1" methods="8" coveredmethods="1"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="119" count="3" type="stmt"/>
+        <line num="121" count="2" type="stmt"/>
+        <line num="122" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="136" count="2" type="stmt"/>
+        <line num="137" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="140" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="151" count="2" type="stmt"/>
+        <line num="152" count="2" type="stmt"/>
+        <line num="153" count="2" type="stmt"/>
+        <line num="155" count="2" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="160" count="2" type="stmt"/>
+      </file>
+      <file name="Theme.tsx" path="/home/vishvrt/TypeScript/my-app/src/Theme.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="47" type="stmt"/>
+        <line num="362" count="47" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/vishvrt/TypeScript/my-app/src/index.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.ts" path="/home/vishvrt/TypeScript/my-app/src/reportWebVitals.ts">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.app-logo">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="BlinkImage.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/app-logo/BlinkImage.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="BlinkImage.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/app-logo/BlinkImage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.author">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="AuthorName.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/author/AuthorName.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="AuthorName.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/author/AuthorName.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="22" type="stmt"/>
+        <line num="11" count="22" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.avatar">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="LoginAvatar.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/avatar/LoginAvatar.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="LoginAvatar.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/avatar/LoginAvatar.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.banner.banner-image">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="BannerImage.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/banner/banner-image/BannerImage.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="BannerImage.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/banner/banner-image/BannerImage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.banner.banner-item-one">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="BannerOne.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/banner/banner-item-one/BannerOne.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="BannerOne.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/banner/banner-item-one/BannerOne.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.banner.banner-item-two">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="BannerTwo.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/banner/banner-item-two/BannerTwo.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="BannerTwo.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/banner/banner-item-two/BannerTwo.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.bookpagedetails.bookdetailstitle">
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="BookDetailsTitle.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/bookdetailstitle/BookDetailsTitle.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="BookDetailsTitle.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/bookdetailstitle/BookDetailsTitle.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.bookpagedetails.booknote">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="BookNote.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/booknote/BookNote.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="BookNote.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/booknote/BookNote.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.bookpagedetails.bookoptions.finishbutton">
+      <metrics statements="9" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="2"/>
+      <file name="FinishReading.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/bookoptions/finishbutton/FinishReading.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="FinishReading.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/bookoptions/finishbutton/FinishReading.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.bookpagedetails.bookoptions.kindlebutton">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="SenToKindle.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/bookoptions/kindlebutton/SenToKindle.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="SendToKindle.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/bookoptions/kindlebutton/SendToKindle.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.bookpagedetails.bookoptions.readbutton">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="ReadNow.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/bookoptions/readbutton/ReadNow.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="ReadNow.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/bookoptions/readbutton/ReadNow.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.bookpagedetails.keydetails">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="KeyIdeas.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/keydetails/KeyIdeas.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="KeyIdeas.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/bookpagedetails/keydetails/KeyIdeas.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.booktitle">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="BookTitle.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/booktitle/BookTitle.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="BookTitle.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/booktitle/BookTitle.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="22" type="stmt"/>
+        <line num="11" count="22" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.current-bar">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="CurrentBar.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/current-bar/CurrentBar.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="13" type="stmt"/>
+        <line num="7" count="13" type="stmt"/>
+      </file>
+      <file name="Currentbar.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/current-bar/Currentbar.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.explore">
+      <metrics statements="8" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <file name="Explore.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/explore/Explore.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="Explore.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/explore/Explore.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.explore-item">
+      <metrics statements="9" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="Button.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/explore-item/Button.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="Buttons.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/explore-item/Buttons.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.finished-bar">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="FinishedBar.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/finished-bar/FinishedBar.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="FinishedBar.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/finished-bar/FinishedBar.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.finished-button">
+      <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="FinishedButton.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/finished-button/FinishedButton.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="FinishedButton.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/finished-button/FinishedButton.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.footer.copyright">
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="FooterCopyRight.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/footer/copyright/FooterCopyRight.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="FooterCopyRight.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/footer/copyright/FooterCopyRight.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.footer.footerhighlight">
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="FooterHighlight.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/footer/footerhighlight/FooterHighlight.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="FooterHighlight.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/footer/footerhighlight/FooterHighlight.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.footer.navitems.navhead">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="NavHead.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/footer/navitems/navhead/NavHead.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="NavHead.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/footer/navitems/navhead/NavHead.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="13" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.footer.navitems.navitem">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="NavItem.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/footer/navitems/navitem/NavItem.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="NavItem.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/footer/navitems/navitem/NavItem.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="53" type="stmt"/>
+        <line num="9" count="53" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.heading">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Heading.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/heading/Heading.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="Heading.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/heading/Heading.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.keyideas">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="KeyIdeas.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/keyideas/KeyIdeas.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="KeyIdeas.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/keyideas/KeyIdeas.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.mylibrary.mylibrary-heading">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="MyLibHeading.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/mylibrary/mylibrary-heading/MyLibHeading.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="MyLibHeading.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/mylibrary/mylibrary-heading/MyLibHeading.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.mylibrary.mylibrary-text">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="MyLibrary.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/mylibrary/mylibrary-text/MyLibrary.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="MyLibrary.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/mylibrary/mylibrary-text/MyLibrary.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.nav.nav-down">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="NavDown.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/nav/nav-down/NavDown.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.nav.nav-up">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="NavUp.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/nav/nav-up/NavUp.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.readagainbutton">
+      <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="ReadAgainButton.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/readagainbutton/ReadAgainButton.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="ReadAgainButton.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/readagainbutton/ReadAgainButton.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.search-icon">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SearchIcon.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/search-icon/SearchIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.timer">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Timer.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/atoms/timer/Timer.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="23" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.addtolibrarybutton">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="AddToLibraryButton.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/addtolibrarybutton/AddToLibraryButton.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="AddToLibraryButton.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/addtolibrarybutton/AddToLibraryButton.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.avatar">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="AvatarDrop.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/avatar/AvatarDrop.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="AvatarDrop.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/avatar/AvatarDrop.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.banner-items.banner-item">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="BannerItem.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/banner-items/banner-item/BannerItem.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="BannerItem.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/banner-items/banner-item/BannerItem.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.banner-items.mainbanner">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="MainBanner.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/banner-items/mainbanner/MainBanner.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="MainBanner.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/banner-items/mainbanner/MainBanner.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.bookdetailstabs">
+      <metrics statements="11" coveredstatements="6" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="1"/>
+      <file name="BookDetailsTabs.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/bookdetailstabs/BookDetailsTabs.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="BookDetailsTabs.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/bookdetailstabs/BookDetailsTabs.tsx">
+        <metrics statements="8" coveredstatements="6" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.card">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="CardHead.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/card/CardHead.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="CardHead.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/card/CardHead.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="21" type="stmt"/>
+        <line num="16" count="21" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.explore-items.explore-grid">
+      <metrics statements="11" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <file name="ExploreMenu.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/explore-items/explore-grid/ExploreMenu.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="ExploreMenu.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/explore-items/explore-grid/ExploreMenu.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="18" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="72" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.explore-items.explore-grid-head">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="ExploreMenuHead.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/explore-items/explore-grid-head/ExploreMenuHead.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="ExploreMenuHead.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/explore-items/explore-grid-head/ExploreMenuHead.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.footer.footer-highlight">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BlinkHighlight.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-highlight/BlinkHighlight.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.footer.footer-main">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="FooterMain.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-main/FooterMain.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="FooterMain.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-main/FooterMain.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.footer.footer-navlist">
+      <metrics statements="24" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="6"/>
+      <file name="FooterNavListOne.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-navlist/FooterNavListOne.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="FooterNavListOne.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-navlist/FooterNavListOne.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="19" count="28" type="stmt"/>
+      </file>
+      <file name="FooterNavListThree.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-navlist/FooterNavListThree.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="FooterNavListThree.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-navlist/FooterNavListThree.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="16" count="28" type="stmt"/>
+      </file>
+      <file name="FooterNavListTwo.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-navlist/FooterNavListTwo.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="FooterNavListTwo.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/footer/footer-navlist/FooterNavListTwo.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="19" count="35" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.read-time">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="ReadTime.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/read-time/ReadTime.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="ReadTime.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/molecules/read-time/ReadTime.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="22" type="stmt"/>
+        <line num="11" count="22" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.bookdetailsgrid">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="BookDetailsGrid.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/bookdetailsgrid/BookDetailsGrid.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.cards.card-add">
+      <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="CardAdd.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/cards/card-add/CardAdd.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="CardAdd.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/cards/card-add/CardAdd.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.cards.card-mui">
+      <metrics statements="9" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <file name="CardMui.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/cards/card-mui/CardMui.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="CardMui.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/cards/card-mui/CardMui.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="24" count="15" type="stmt"/>
+        <line num="60" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.header.header-left">
+      <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="HeaderLeft.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/header/header-left/HeaderLeft.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="HeaderLeft.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/header/header-left/HeaderLeft.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.header.toolbar-header">
+      <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="ToolBarHeader.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/header/toolbar-header/ToolBarHeader.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="ToolBarHeader.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/header/toolbar-header/ToolBarHeader.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.main">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="MainSearch.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/main/MainSearch.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="MainSearch.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/main/MainSearch.tsx">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.tabs">
+      <metrics statements="13" coveredstatements="6" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+      <file name="ReadingTabs.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/tabs/ReadingTabs.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="ReadingTabs.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/organisms/tabs/ReadingTabs.tsx">
+        <metrics statements="9" coveredstatements="6" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.templates.enterprenur-book">
+      <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="EnterprenurReading.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/templates/enterprenur-book/EnterprenurReading.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="7" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+      </file>
+      <file name="EntreprenurReading.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/templates/enterprenur-book/EntreprenurReading.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.templates.finished-books">
+      <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="MainFinished.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/templates/finished-books/MainFinished.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+      </file>
+      <file name="MainFinished.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/templates/finished-books/MainFinished.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.templates.reading-books">
+      <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="MainReading.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/templates/reading-books/MainReading.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="MainReading.tsx" path="/home/vishvrt/TypeScript/my-app/src/Components/templates/reading-books/MainReading.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.stories">
+      <metrics statements="32" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="10" coveredmethods="0"/>
+      <file name="Button.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/stories/Button.stories.tsx">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+      <file name="Button.tsx" path="/home/vishvrt/TypeScript/my-app/src/stories/Button.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+      <file name="Header.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/stories/Header.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="/home/vishvrt/TypeScript/my-app/src/stories/Header.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="Page.stories.tsx" path="/home/vishvrt/TypeScript/my-app/src/stories/Page.stories.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="Page.tsx" path="/home/vishvrt/TypeScript/my-app/src/stories/Page.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
