@@ -1,6 +1,6 @@
 import React  from "react";
 import {render,cleanup, screen,fireEvent} from '@testing-library/react';
-import ReadAgainButton from "../ReadAgain";
+import ReadAgainButton from "../ReadAgainButton";
 import '@testing-library/jest-dom';
 
 afterEach(cleanup);
